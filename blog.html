@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output/tailwind.css">
+    <title>Dev Board Website</title>
+</head>
+<body class="bg-lightClr">
+        <!-- header section -->
+    <header
+    class="max-w-[1200px] mx-auto mt-4 p-4 bg-white rounded-lg flex items-center justify-between"
+  >
+    <div class="flex items-center">
+      <img class="w-10 mr-1" src="./assets/logo.png" alt="" />
+      <h2 class="text-3xl">Dev<span class="font-bold">Board</span></h2>
+    </div>
+
+      <button id="backtoDesk" class="btn">Back to Desk</button>
+    </div>
+  </header>
+
+  <main class=" max-w-[1200px] mx-auto">
+    <h2 class="font-bold text-2xl my-5 text-center">Blogs</h2>
+
+    <div class=" mb-5 rounded-md bg-white">
+        <h2 class="font-semibold text-black text-lg pb-3 border-b px-5 pt-5">Question-1: What are the different ways to select an element in the DOM?</h2>
+        <p class="py-3 text-primaryTxtClr opacity-70 text-base px-5 pb-5">JavaScript has many ways to select an element. For example: <q class="bg-gray-400 px-1">getElementById()</q>: select a single element using id attribute, <q class="bg-gray-400 px-1">getElementsByClassName</q>: This return a collection of html, <q class="bg-gray-400 px-1">getElementByTagName()</q> Select all lements with specific tag name, <q class="bg-gray-400 px-1">querySelector()</q>: Selects the first element that matches a CSS selector, <q class="bg-gray-400 px-1">querySelectorAll()</q>, This return a nodeList</p>
+    </div>
+    <div class=" mb-5 rounded-md bg-white">
+        <h2 class="font-semibold text-black text-lg pb-3 border-b px-5 pt-5">Question-3: What is event delegation in the DOM?</h2>
+        <p class="py-3 text-primaryTxtClr opacity-70 text-base px-5 pb-5">Event delegation is assigning an event listener to a parent element to handle events for child elements. It's efficient for dynamically added elements.</p>
+    </div>
+    <div class=" mb-5 rounded-md bg-white">
+        <h2 class="font-semibold text-black text-lg pb-3 border-b px-5 pt-5">Question-4: What is event bubbling in the DOM?</h2>
+        <p class="py-3 text-primaryTxtClr opacity-70 text-base px-5 pb-5">Event bubbling is when an event propagates from the target element up to the root.</p>
+    </div>
+    <div class=" mb-5 rounded-md bg-white">
+        <h2 class="font-semibold text-black text-lg pb-3 border-b px-5 pt-5">Question-1: What are the different ways to select an element in the DOM?</h2>
+        <p class="py-3 text-primaryTxtClr opacity-70 text-base px-5 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ducimus nostrum facilis culpa, architecto quasi aspernatur corporis ex, soluta cum maiores corrupti iste porro, dolorem quibusdam delectus cupiditate amet eos!</p>
+    </div>
+
+    <div class="mb-5 rounded-md bg-white">
+        <h2 class="font-semibold text-black text-lg pb-3 border-b px-5 pt-5">Question-5: How do you create, add, and remove elements using JavaScript?</h2>
+        <p class="py-3 text-primaryTxtClr opacity-70 text-base px-5 pb-5">For create an element we can use <q class="bg-gray-400 px-1">document.createElement()</q>. After create an element we can add it to the page using methods like: <q class="bg-gray-400 px-1">append(), prepend(), appendChild(), innerHTML</q>. We can also remove that element using js another methods <q class="bg-gray-400 px-1">remove(), removeChild()</q></p>
+    </div>
+  </main>
+  <script src="blog.js"></script>
+</body>  
+</html>   
